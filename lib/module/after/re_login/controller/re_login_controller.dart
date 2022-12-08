@@ -1,9 +1,9 @@
 import 'package:fhe_template/core.dart';
 import 'package:flutter/material.dart';
 
-class LoginController extends State<LoginView> implements MvcController {
-  static late LoginController instance;
-  late LoginView view;
+class ReLoginController extends State<ReLoginView> implements MvcController {
+  static late ReLoginController instance;
+  late ReLoginView view;
 
   @override
   void initState() {
@@ -20,14 +20,14 @@ class LoginController extends State<LoginView> implements MvcController {
   moveToRegister() {
     Navigator.push(
       context,
-      MaterialPageRoute(builder: (context) => const RegisterView()),
+      MaterialPageRoute(builder: (context) => const ReRegisterView()),
     );
   }
 
   doLogin() {
     Navigator.pushReplacement(
       context,
-      MaterialPageRoute(builder: (context) => const DashboardView()),
+      MaterialPageRoute(builder: (context) => const ReDashboardView()),
     );
   }
 }

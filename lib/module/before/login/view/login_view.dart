@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:fhe_template/core.dart';
 import 'package:hexcolor/hexcolor.dart';
-import '../controller/login_controller.dart';
 
 class LoginView extends StatefulWidget {
   const LoginView({Key? key}) : super(key: key);

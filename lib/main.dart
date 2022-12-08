@@ -4,7 +4,7 @@ import 'package:flutter/material.dart';
 void main() async {
   await initialize();
 
-  Widget mainView = const LoginView();
+  Widget mainView = const ReLoginView();
 
   runApp(
     MaterialApp(

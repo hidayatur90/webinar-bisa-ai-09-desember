@@ -3,6 +3,10 @@
         "before/login",
         "before/register",
         "before/dashboard",
-        "before/profile"
+        "before/profile",
+        "after/re_login",
+        "after/re_register",
+        "after/re_dashboard",
+        "after/re_profile"
     ]
 }
