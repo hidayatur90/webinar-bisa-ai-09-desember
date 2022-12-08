@@ -1,0 +1,8 @@
+{
+    "modules": [
+        "before/login",
+        "before/register",
+        "before/dashboard",
+        "before/profile"
+    ]
+}
