@@ -89,11 +89,15 @@ class ReRegisterView extends StatefulWidget {
                   ),
                 ],
               ),
-              const HDFormTextField(hintText: 'No Telepon'),
+              const HDFormTextField(
+                hintText: 'No Telepon',
+                obscureText: true,
+                // maxLines: ,
+              ),
               const SizedBox(
                 height: 5.0,
               ),
-              const HDFormTextField(hintText: 'Alamat', maxLines: 5),
+              const HDFormTextField(hintText: 'Alamat'),
               const SizedBox(
                 height: 5.0,
               ),
